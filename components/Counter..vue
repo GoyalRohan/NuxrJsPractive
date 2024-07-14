@@ -18,7 +18,4 @@
         <button @click="counter++">+</button>
         <button @click="counter--">-</button>
     </div>
-
-
-    <Counter />
 </template>
