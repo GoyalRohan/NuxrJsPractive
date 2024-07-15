@@ -1,5 +1,7 @@
-<script setup>
-
+<script setup lang="ts">
+    useHead({
+        title: "Profile Page", 
+    })
     const {sayHello} = useUtils() ; 
     sayHello() ; 
 </script>

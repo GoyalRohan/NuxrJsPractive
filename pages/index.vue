@@ -1,25 +1,24 @@
-<script setup >
+<script setup lang="ts">
     
-    // const {data : products , pending} = await useLazyFetch('/api/products') ; 
-    // // console.log(data.value) ; 
+    // useSeoMeta({
+    // title: 'My Amazing Site',
+    // ogTitle: 'My Amazing Site',
+    // description: 'This is my amazing site, let me tell you all about it.',
+    // ogDescription: 'This is my amazing site, let me tell you all about it.',
+    // ogImage: 'https://example.com/image.png',
+    // twitterCard: 'summary_large_image',
+    // })
 
-    const {data: productCount , pending} = await useLazyAsyncData("products" , () => {
-        $fetch("/api/products")
-    }) ;
-
-    console.log(productCount) ;
-
-    const refresh = () => refreshNuxtData('products')
+    const title = ref("this is my dynamic title")
 </script>
 
 
 
 <template>
     <div>
+        <Head>
+            <Title>{{title}}</Title>
+        </Head>
        <h1>This is the main index page</h1>
-       <br> <br>
-       <p>{{ pending ? "loading" :  productCount }}</p>
-
-       <button @click="refresh">Refresh</button>
     </div>
 </template>
