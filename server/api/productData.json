@@ -1,0 +1,12 @@
+[
+  { "id": 1, "first_name": "Nevsa", "last_name": "Johansen", "price": 158 },
+  { "id": 2, "first_name": "Kippy", "last_name": "Mein", "price": 802 },
+  { "id": 3, "first_name": "Amelina", "last_name": "MacAlpyne", "price": 905 },
+  { "id": 4, "first_name": "Jacquette", "last_name": "Fealty", "price": 561 },
+  { "id": 5, "first_name": "Allsun", "last_name": "Hairon", "price": 530 },
+  { "id": 6, "first_name": "Hew", "last_name": "Gavagan", "price": 954 },
+  { "id": 7, "first_name": "Melitta", "last_name": "Hammerich", "price": 214 },
+  { "id": 8, "first_name": "Margot", "last_name": "Spick", "price": 494 },
+  { "id": 9, "first_name": "Bibbye", "last_name": "Drury", "price": 414 },
+  { "id": 10, "first_name": "Gawen", "last_name": "Wilsone", "price": 113 }
+]
